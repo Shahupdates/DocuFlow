@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, p {
+body, h1, p, ul, li, a {
   margin: 0;
   padding: 0;
 }
@@ -16,14 +16,55 @@ body {
   padding: 20px;
 }
 
-h1 {
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.header-title {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-p {
+.description {
   font-size: 16px;
   margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.features-list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.feature-icon {
+  margin-right: 10px;
+}
+
+.start-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.start-button:hover {
+  background-color: #0056b3;
 }
 
 a {
