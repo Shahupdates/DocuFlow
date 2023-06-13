@@ -16,6 +16,57 @@ npm install
 ```
 4. Access the application through your web browser at 'http://localhost:3000'.
 
+
+# Directory overview
+DocuFlow/
+├── backend/
+│   ├── config/
+│   │   └── ...
+│   ├── controllers/
+│   │   └── ...
+│   ├── models/
+│   │   └── ...
+│   ├── routes/
+│   │   └── ...
+│   ├── app.js
+│   ├── package.json
+│   └── ...
+└── frontend/
+    ├── public/
+    │   └── ...
+    ├── src/
+    │   ├── components/
+    │   │   └── ...
+    │   ├── pages/
+    │   │   └── ...
+    │   ├── services/
+    │   │   └── ...
+    │   ├── App.js
+    │   ├── index.js
+    │   ├── package.json
+    │   └── ...
+    └── ...
+
+# File breakdown
+```
+backend/: This directory will contain the backend server code.
+config/: Configuration files for the backend server.
+controllers/: Controllers handling the application logic.
+models/: Data models and schemas.
+routes/: Route definitions for the API endpoints.
+app.js: The entry point file for the backend server.
+package.json: Configuration and dependencies for the backend server.
+frontend/: This directory will contain the frontend code.
+
+public/: Public assets, such as HTML files and images.
+src/: Main source code directory.
+components/: Reusable React components.
+pages/: React components representing different pages of the application.
+services/: Services for making API requests or handling other functionality.
+App.js: The main component that acts as the entry point for the frontend.
+index.js: The entry point file for the frontend.
+package.json: Configuration and dependencies for the frontend.
+```
 # Technology Stack
 * Backend: Node.js with Express.js
 * Frontend: React.js
