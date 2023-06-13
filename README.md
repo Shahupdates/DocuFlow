@@ -24,6 +24,13 @@ docuflow/
 ├── package.json
 ├── src/
 └── public/
+
+src/
+├── components/
+│   └── ExampleComponent.js
+├── pages/
+│   └── HomePage.js
+└── App.js
 ```
 
 # Directory overview
