@@ -17,10 +17,21 @@ npm install
 4. Access the application through your web browser at 'http://localhost:3000'.
 
 # Technology Stack
-* Backend: Node.JS, Express.JS
-* Frontend: React.JS, HTML, CSS
-* Natural Language Understanding (NLU) Framework/Tool Name: To be decided
-* Database: To be decided
+* Backend: Node.js with Express.js
+* Frontend: React.js
+* Document Processing: PyPdf2
+* Natural Language Understanding (NLU): Dialogflow (Google)
+* Database: MongoDB
+
+This stack offers seamless integration between the backend and frontend using Node.js and Express.js, providing a fast and efficient development experience. React.js is a widely adopted frontend framework that offers component-based development and a rich ecosystem of libraries and tools.
+
+PyPDF2 is a great Python library for extracting text, images, and metadata from PDF files.
+
+Dialogflow from Google provides an easy-to-use NLU platform with pre-built agents and machine learning capabilities, enabling you to create intelligent chatbots.
+
+MongoDB, a flexible and scalable NoSQL database, complements the stack by providing a document-based data model that aligns well with the document-centric nature of your application.
+
+This stack offers a smooth development experience and a good balance between popular, well-supported technologies
 
 # Contributing
 Contributions are welcome! Please follow these guidelines:
