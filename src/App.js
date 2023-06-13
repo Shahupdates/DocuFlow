@@ -10,7 +10,10 @@ function App() {
   return (
     <Router>
       <div>
-        <nav>
+        <header>
+          <h1>DocuFlow</h1>
+        </header>
+        <nav className="navbar">
           <ul>
             <li>
               <Link to="/">Home</Link>
