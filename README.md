@@ -2,10 +2,10 @@
 DocuFlow is an open-source, advanced yet simple full-stack application that revolutionizes document interaction. With its intuitive user interface, powerful features, and streamlined workspace management, DocuFlow transforms any document into an intelligent chatbot, enhancing productivity and simplifying information access.
 
 # Features
-Document-to-Chatbot Conversion: Seamlessly convert various document formats, such as PDF, Word, and text files, into interactive chatbots.
-Intelligent Conversation: Utilize advanced natural language understanding (NLU) to enable dynamic and context-aware conversations with the chatbot.
-Sleek and User-Friendly Interface: Enjoy a visually appealing and intuitive user interface for an enhanced user experience.
-Efficient Workspace Management: Easily create, organize, and manage workspaces to facilitate collaboration and streamline document management.
+* Document-to-Chatbot Conversion: Seamlessly convert various document formats, such as PDF, Word, and text files, into interactive chatbots.
+* Intelligent Conversation: Utilize advanced natural language understanding (NLU) to enable dynamic and context-aware conversations with the chatbot.
+* Sleek and User-Friendly Interface: Enjoy a visually appealing and intuitive user interface for an enhanced user experience.
+* Efficient Workspace Management: Easily create, organize, and manage workspaces to facilitate collaboration and streamline document management.
 
 # Installation
 1. Clone the repository: ``` git clone https://github.com/shahupdates/docuflow.git ```
