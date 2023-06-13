@@ -4,10 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico">
-  <link rel="stylesheet" href="%PUBLIC_URL%/styles/main.css">
   <title>DocuFlow</title>
+  <link rel="stylesheet" href="%PUBLIC_URL%/styles/main.css">
 </head>
 <body>
-  <div id="root"></div>
+  <header class="header">
+    <h1 class="header-title">Welcome to DocuFlow</h1>
+  </header>
+
+  <main class="container">
+    <p class="description">
+      DocuFlow is an open-source, advanced yet simple full-stack application that revolutionizes document interaction.
+      With its intuitive user interface, powerful features, and streamlined workspace management,
+      DocuFlow transforms any document into an intelligent chatbot, enhancing productivity and simplifying information access.
+    </p>
+
+    <section class="features">
+      <h2 class="section-title">Features</h2>
+      <ul class="features-list">
+        <li class="feature-item">
+          <span class="feature-icon">📄</span>
+          <p class="feature-description">
+            Document-to-Chatbot Conversion: Seamlessly convert various document formats, such as PDF, Word, and text files, into interactive chatbots.
+          </p>
+        </li>
+        <li class="feature-item">
+          <span class="feature-icon">💬</span>
+          <p class="feature-description">
+            Intelligent Conversation: Utilize advanced natural language understanding (NLU) to enable dynamic and context-aware conversations with the chatbot.
+          </p>
+        </li>
+        <li class="feature-item">
+          <span class="feature-icon">💡</span>
+          <p class="feature-description">
+            Sleek and User-Friendly Interface: Enjoy a visually appealing and intuitive user interface for an enhanced user experience.
+          </p>
+        </li>
+        <li class="feature-item">
+          <span class="feature-icon">🗄️</span>
+          <p class="feature-description">
+            Efficient Workspace Management: Easily create, organize, and manage workspaces to facilitate collaboration and streamline document management.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <a class="start-button" href="/document-conversion">Start Document Conversion</a>
+  </main>
+
+  <script src="%PUBLIC_URL%/scripts/main.js"></script>
 </body>
 </html>
