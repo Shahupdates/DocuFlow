@@ -31,38 +31,14 @@ src/
 ├── pages/
 │   └── HomePage.js
 └── App.js
-```
 
-# Directory overview
-```
-DocuFlow/
-├── backend/
-│   ├── config/
-│   │   └── ...
-│   ├── controllers/
-│   │   └── ...
-│   ├── models/
-│   │   └── ...
-│   ├── routes/
-│   │   └── ...
-│   ├── app.js
-│   ├── package.json
-│   └── ...
-└── frontend/
-    ├── public/
-    │   └── ...
-    ├── src/
-    │   ├── components/
-    │   │   └── ...
-    │   ├── pages/
-    │   │   └── ...
-    │   ├── services/
-    │   │   └── ...
-    │   ├── App.js
-    │   ├── index.js
-    │   ├── package.json
-    │   └── ...
-    └── ...
+public/
+├── index.html
+├── favicon.ico
+├── images/
+│   └── logo.png
+└── styles/
+    └── main.css
 ```
 # File breakdown
 ```
