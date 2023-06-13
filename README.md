@@ -16,6 +16,15 @@ npm install
 ```
 4. Access the application through your web browser at 'http://localhost:3000'.
 
+# Initial Project Directory Structure
+```
+docuflow/
+├── README.md
+├── .gitignore
+├── package.json
+├── src/
+└── public/
+```
 
 # Directory overview
 ```
