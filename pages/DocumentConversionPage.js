@@ -9,8 +9,12 @@ function DocumentConversionPage() {
   };
 
   const handleConversion = () => {
-    // Implement the document conversion logic using the selected file
-    console.log('File:', selectedFile);
+    if (selectedFile) {
+      // Implement the document conversion logic here
+      console.log('Converting file:', selectedFile);
+    } else {
+      alert('Please select a file.');
+    }
   };
 
   return (
