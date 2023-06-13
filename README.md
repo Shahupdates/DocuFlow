@@ -18,6 +18,7 @@ npm install
 
 
 # Directory overview
+```
 DocuFlow/
 ├── backend/
 │   ├── config/
@@ -46,7 +47,7 @@ DocuFlow/
     │   ├── package.json
     │   └── ...
     └── ...
-
+```
 # File breakdown
 ```
 backend/: This directory will contain the backend server code.
