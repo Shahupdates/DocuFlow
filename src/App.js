@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import DocumentConversionPage from './pages/DocumentConversionPage';
 import ChatbotPage from './pages/ChatbotPage';
@@ -10,7 +10,25 @@ function App() {
   return (
     <Router>
       <div>
-        {/* Add your header, navigation, or other common components here */}
+        <header>
+          <h1>DocuFlow</h1>
+        </header>
+        <nav className="navbar">
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/document-conversion">Document Conversion</Link>
+            </li>
+            <li>
+              <Link to="/chatbot">Chatbot</Link>
+            </li>
+            <li>
+              <Link to="/workspace-management">Workspace Management</Link>
+            </li>
+          </ul>
+        </nav>
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/document-conversion" component={DocumentConversionPage} />
