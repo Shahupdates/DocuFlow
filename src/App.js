@@ -9,12 +9,12 @@ import NotFoundPage from './pages/NotFoundPage';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="container">
         <header>
           <h1>DocuFlow</h1>
         </header>
         <nav className="navbar">
-          <ul>
+          <ul className="nav-links">
             <li>
               <Link to="/">Home</Link>
             </li>
