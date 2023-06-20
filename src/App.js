@@ -6,39 +6,44 @@ import ChatbotPage from './pages/ChatbotPage';
 import WorkspaceManagementPage from './pages/WorkspaceManagementPage';
 import NotFoundPage from './pages/NotFoundPage';
 
-function App() {
-  return (
-    <Router>
-      <div>
-        <header>
-          <h1>DocuFlow</h1>
-        </header>
-        <nav className="navbar">
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/document-conversion">Document Conversion</Link>
-            </li>
-            <li>
-              <Link to="/chatbot">Chatbot</Link>
-            </li>
-            <li>
-              <Link to="/workspace-management">Workspace Management</Link>
-            </li>
-          </ul>
-        </nav>
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/document-conversion" component={DocumentConversionPage} />
-          <Route path="/chatbot" component={ChatbotPage} />
-          <Route path="/workspace-management" component={WorkspaceManagementPage} />
-          <Route component={NotFoundPage} />
-        </Switch>
-      </div>
-    </Router>
-  );
-}
+const NAV_LINKS = [
+  { path: '/', name: 'Home', component: HomePage },
+  { path: '/document-conversion', name: 'Document Conversion', component: DocumentConversionPage },
+  { path: '/chatbot', name: 'Chatbot', component: ChatbotPage },
+  { path: '/workspace-management', name: 'Workspace Management', component: WorkspaceManagementPage }
+];
+
+const AppHeader = () => (
+  <header>
+    <h1>DocuFlow</h1>
+  </header>
+);
+
+const AppNav = () => (
+  <nav className="navbar">
+    <ul>
+      {NAV_LINKS.map((link, index) => (
+        <li key={index}>
+          <Link to={link.path}>{link.name}</Link>
+        </li>
+      ))}
+    </ul>
+  </nav>
+);
+
+const App = () => (
+  <Router>
+    <div>
+      <AppHeader />
+      <AppNav />
+      <Switch>
+        {NAV_LINKS.map((link, index) => (
+          <Route exact path={link.path} component={link.component} key={index} />
+        ))}
+        <Route component={NotFoundPage} />
+      </Switch>
+    </div>
+  </Router>
+);
 
 export default App;
